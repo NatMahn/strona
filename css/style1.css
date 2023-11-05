@@ -1,0 +1,36 @@
+body {
+  background-image: url("img/zima_noch_gory_79420_1920x1080.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.theme {
+  text-align: center;
+  font-size: 50px;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.466);
+  padding: 0.5%;
+}
+.text {
+  width: 800px;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 800;
+}
+.main {
+  background-color: rgba(0, 0, 0, 0.466);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+}
+.button {
+  text-align: center;
+  display: grid;
+}

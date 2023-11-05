@@ -1,0 +1,38 @@
+body {
+  background-image: url("img/1676713304_foni-club-p-oboi-sakura-na-pk-12.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.theme {
+  text-shadow: 5px 4px 3px black;
+  color: #ffffff;
+  background-color: #461b25;
+  font-size: 50px;
+  font-weight: 900;
+  padding: 1%;
+  text-align: center;
+}
+div {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.text {
+  background-color: rgba(240, 248, 255, 0.542);
+  text-align: center;
+  padding: 1%;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.53);
+  font-size: 33px;
+  font-weight: 700;
+  width: 800px;
+}
+
+.img-2 {
+  margin-top: 10%;
+  height: 80%;
+}
+
+.img-1 {
+  margin-left: 35%;
+}

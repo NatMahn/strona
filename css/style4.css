@@ -1,0 +1,40 @@
+body {
+  background-image: url("img/3-b891564a56c80a953da7a4cee562ade4.jpg");
+}
+.theme {
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+.text {
+  background-color: #003e749d;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.slideshow {
+  border: 5px solid black;
+  width: 1000px;
+  height: 800px;
+  animation: Slideshow 20s infinite;
+}
+
+.main {
+  display: grid;
+  justify-content: center;
+}
+@keyframes Slideshow {
+  0% {
+    background-image: url("img/kot.jpg");
+    background-size: cover;
+  }
+  50% {
+    background-image: url("img/IMG_3753.JPG");
+    background-size: cover;
+  }
+  100% {
+    background-image: url("img/friend.jpg");
+    background-size: cover;
+  }
+}

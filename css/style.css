@@ -1,0 +1,60 @@
+body {
+  background-image: url("img/moon_rose_light.jpg");
+}
+p {
+  padding: 1%;
+  background-color: rgba(0, 0, 0, 0.322);
+}
+.theme {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 5px 4px black;
+}
+.main {
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.block {
+  background-image: url("img/61Vko0q1qBL._AC_UF1000\,1000_QL80_.jpg");
+  background-size: cover;
+  padding: 2%;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  /* background-image: none; */
+  width: 300px;
+  height: 400px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px black;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  background-image: url("img/istock-512102071.jpg");
+  background-size: cover;
+}
+.block:hover {
+  background-image: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  margin: 0;
+}
+#clock {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid rgb(0, 61, 5);
+  padding: 10px;
+  background-color: rgb(174, 244, 250);
+}
